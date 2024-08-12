@@ -20,6 +20,11 @@ var Seed_Significado_USECASE = entity.Significado{
 	Aplicabilidade: []string{"CRUD", "create", ""},
 }
 
+var Seed_Significado_TESTER = entity.Significado{
+	Nome:           "Tester",
+	Significado:    "Testar a Entidade",
+	Aplicabilidade: []string{"testar a o objeto da entidade somente no console."},
+}
 var Seed_Significado_TEST = entity.Significado{
 	Nome:           "Test",
 	Significado:    "Testar a Entidade",

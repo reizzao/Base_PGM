@@ -21,7 +21,7 @@ type OrdemFluxoEntidade struct {
 }
 type OrdemFluxoEntidadeProps struct {
 	Ordem      int
-	Finalidade string
+	Finalidade Significado
 }
 
 type Nomeacoes_Pastas = int
