@@ -6,8 +6,13 @@ type Universal struct {
 }
 
 type Projetos_UNV struct {
-	ConvencaoPastas    ConvencaoPastas
+	ConvencaoPastas ConvencaoPastas
+	Entidade        Entidade
+}
+
+type Entidade struct {
 	OrdemFluxoEntidade []OrdemFluxoEntidade
+	CasosDeUsoEntidade CasosDeUsoEntidade
 }
 
 type OrdemFluxoEntidade struct {
@@ -22,6 +27,16 @@ type OrdemFluxoEntidade struct {
 type OrdemFluxoEntidadeProps struct {
 	Ordem      int
 	Finalidade Significado
+}
+
+type CasosDeUsoEntidade struct {
+	Crud []Crud
+}
+
+type Crud struct {
+	Criar   string
+	Listar  string
+	Deletar string
 }
 
 type Nomeacoes_Pastas = int
