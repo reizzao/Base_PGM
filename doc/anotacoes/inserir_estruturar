@@ -1,3 +1,15 @@
 
 objeto seed : fazer para ser primeiros registros de EXEMPLO na base de dados
 objeto default : fazer para ser primeiros registros de FABRICA na APLICACAO para o Client visualizar.
+
+valor ::
+Quando um campo vai ser um objeto -> cria um struct- e o campo vai ter opcoes pode ser uma coisa ou outra faz dele um objeto enum
+
+para ser um objeto ou outro ::
+em golang: cria interface - e os tipos de obejtos apra serem de uma interface que tem metodo, estes tipos tem que ter metodo igual dessa interface.
+
+Inteligencia :
+- Adicionar Inteligência: é add funções
+- Local de add inteligência é nas funções de caso de uso
+
+
