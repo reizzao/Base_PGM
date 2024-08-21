@@ -12,4 +12,9 @@ Inteligencia :
 - Adicionar Inteligência: é add funções
 - Local de add inteligência é nas funções de caso de uso
 
-
+:Comeco algoritmos
+- Comecar criar o contrato de tipos
+- use test oficial da linguagem ao inves de testers em console, assim a app ja fica garantida testada.
+- Criar um input de tester para usar no test oficial - inicialmente sem objetos complexos : comece com dados primitivos
+- Na funcao test - testar o caso de uso com o input
+-
