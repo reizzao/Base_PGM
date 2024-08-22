@@ -21,3 +21,6 @@ Inteligencia :
 
 :Pastas
 - pasta test : melhor deixar na raiz root do projeto, beneficio: é mais facil de acessar.
+
+:Convencoes
+Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test_Create_Foo.inputFoo_test
