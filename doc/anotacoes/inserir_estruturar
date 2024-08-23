@@ -19,6 +19,12 @@ Inteligencia :
 - Na funcao test - testar o caso de uso com o input
 -
 
+:ValoresDefault
+valorDefault_Hardcode : Valor Default em campo de novos objetos
+- crio o valorDefault_Hardcode e uso na funcao que vai criar novos objetos.
+- pego o campo alvo que quero o default valor e atribuo o valorDefault_Hardcode
+- no final devolvo o objeto modificado.
+
 :Pastas
 - pasta test : melhor deixar na raiz root do projeto, beneficio: é mais facil de acessar.
 
