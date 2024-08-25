@@ -1,4 +1,7 @@
 
+#PRIMORDmIAL
+Polo_Unico: em TUDO faça ter somente uma fonte de informacao polo unico onde se mudar na fonte muda em tudo que a usa.
+
 objeto seed : fazer para ser primeiros registros de EXEMPLO na base de dados
 objeto default : fazer para ser primeiros registros de FABRICA na APLICACAO para o Client visualizar.
 
