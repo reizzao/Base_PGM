@@ -25,14 +25,19 @@ QualquerValor_any
 Emgolang: para usar a interface vazia nao usa o sinal de atribuicao = somente add interface{},
 ex: var Obj  interface{}
 
-:ValoresDefault
+# ValoresDefault
 valorDefault_Hardcode : Valor Default em campo de novos objetos
 - crio o valorDefault_Hardcode e uso na funcao que vai criar novos objetos.
 - pego o campo alvo que quero o default valor e atribuo o valorDefault_Hardcode
 - no final devolvo o objeto modificado.
 
-:Pastas
+# Pastas
 - pasta test : melhor deixar na raiz root do projeto, beneficio: é mais facil de acessar.
 
 :Convencoes
 Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test_Create_Foo.inputFoo_test
+
+# Algoritmos
+  ## Estruturar Objeto
+  - modelar EntidadeModel que sera a informação completa final.
+  - habitar: com os campos Request e Computed { para consumir o que vira de fora, e mostrar o que é default proprio da entidade final }
