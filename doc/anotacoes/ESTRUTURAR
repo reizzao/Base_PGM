@@ -41,3 +41,7 @@ Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test
   ## Estruturar Objeto
   - modelar EntidadeModel que sera a informação completa final.
   - habitar: com os campos Request e Computed { para consumir o que vira de fora, e mostrar o que é default proprio da entidade final }
+
+  # REPOSITORIO - GITHUB
+  - Modelo_Commit : categporiaFeito: [local] <afetado> o que fez, Exemplo: refactor: [defaults] <estrofes> ok
+
