@@ -1,0 +1,3 @@
+# EDITOR VSCODE PARA GOLANG
+- Em Settings.json:
+  - "go.lintOnSave": "file", // aponta no problemas do console undefined se eu criar um type e nao usa-lo em outras chaves. TODO: por enquanto esta apontando outros undefined que ainda nao sei qual é tambem.

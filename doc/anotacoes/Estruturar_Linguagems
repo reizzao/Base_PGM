@@ -1,0 +1,13 @@
+# TODAS LINGUAGEMS
+
+### QualquerValor_any
+Em_golang: para usar a interface vazia nao usa o sinal de atribuicao = somente add interface{},
+ex: var Obj  interface{}
+
+### Linter
+  - Tem que ter um lint para verificar variaveis e estruturas nao usadas
+  - em golang temos o golint : mas TODO(NAO DETECTOU STRUCT NAO USADA) : tem que instalar com: `sudo apt install golint` - e rodar no terminal : golint
+  - opcao usar por projeto a lib: codecoroner, link: https://github.com/3rf/codecoroner
+
+### encontrar Modulos_Libs_Externas :
+  em_Go : comandos terminal : `GoClean && go mod tidy && go get <nomeDoModulo_endereco_Github> `

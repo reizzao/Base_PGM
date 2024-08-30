@@ -21,9 +21,7 @@ Inteligencia :
 - Criar um input de tester para usar no test oficial - inicialmente sem objetos complexos : comece com dados primitivos
 - Na funcao test - testar o caso de uso com o input
 -
-QualquerValor_any
-Emgolang: para usar a interface vazia nao usa o sinal de atribuicao = somente add interface{},
-ex: var Obj  interface{}
+
 
 # ValoresDefault
 valorDefault_Hardcode : Valor Default em campo de novos objetos
@@ -44,4 +42,8 @@ Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test
 
   # REPOSITORIO - GITHUB
   - Modelo_Commit : categporiaFeito: [local] <afetado> o que fez, Exemplo: refactor: [defaults] <estrofes> ok
+
+
+
+
 
