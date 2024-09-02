@@ -43,7 +43,19 @@ Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test
   # REPOSITORIO - GITHUB
   - Modelo_Commit : categporiaFeito: [local] <afetado> o que fez, Exemplo: refactor: [defaults] <estrofes> ok
 
+  # METODOS
+  - prometa entregar devolver um tipo
+  - primeiro defina quem é o this ou seja o objeto de onde vai tirar manipular as informacoes
+  - formulas : use operacoes logicas ou apenas atribuicoes para definir valores a serem usados no resultado
+  - faça o resultado e devolvar retorne o que prometeu no formato do tipo que havia prometido.
 
+# CONDICIONAIS
+- Recurso : Condicionais : DAR AO USER A OPÇÃO DE DAR UM INPUT - QUE ESTEJA ENTRE AS OPCOES DISPONIVEIS EM UM OBJETO > SEM IFS
+
+1 - Faz objDeOpcoes com metodos , onde cada nome de metodo sera o que o usuario podera escolher de input.
+-- cada metodo deste tetorna o que vc quer dar de resposta ao acertar o input.
+2 - faz a funcao que vai receber o input e devolver as opcoes do objDeOpcoes
+ -- que recebe a escolha e retorna o objDeOpcoes [ na posicao do input recebido]() e ja auto executa porque as opcoes sao funcoes/metodos.
 
 
 
