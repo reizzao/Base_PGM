@@ -14,3 +14,8 @@ golint : https://dev.to/guiyomh/golangci-lint-a-powerful-and-complete-go-linter-
 
 ### encontrar Modulos_Libs_Externas :
   em_Go : comandos terminal : `GoClean && go mod tidy && go get <nomeDoModulo_endereco_Github> `
+
+### OBJETO MAPA
+recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO EMSMO TIPO PROMETIDO NA DECLARACAO
+- declarar mapa : variavel = map[tipoValorChave]tipoValorDoValordaChave
+exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo com o tipo prometido apra cada uma }
