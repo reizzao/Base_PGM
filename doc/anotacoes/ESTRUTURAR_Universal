@@ -43,11 +43,29 @@ Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test
   # REPOSITORIO - GITHUB
   - Modelo_Commit : categporiaFeito: [local] <afetado> o que fez, Exemplo: refactor: [defaults] <estrofes> ok
 
-  # METODOS
+  # FUNCAO_METODOS
   - prometa entregar devolver um tipo
-  - primeiro defina quem é o this ou seja o objeto de onde vai tirar manipular as informacoes
-  - formulas : use operacoes logicas ou apenas atribuicoes para definir valores a serem usados no resultado
+  - se a informacao a ser manipulada e ser modificada como resposta vir de fora, coloque-a como parametro da funcao
+  - declare a funcao com todas essas promessas se nao usar return nao devolvera nada e a resposta sera undefined.
+  - nocaso de metodo: defina quem é o this ou seja o objeto que tera as propriedades a serem manipuladas.
+  - no corpo da funcao: use variaveis de auxilio para serem maniupladas na formula.
+  - formulas : é o que é preciso para chegar num resultado final, use operacoes logicas ou apenas atribuicoes para definir valores a serem usados no resultado
   - faça o resultado e devolvar retorne o que prometeu no formato do tipo que havia prometido.
+  EXEMPLO:
+  ```
+  function Multiplica(i) {
+  const auxModificador = 2
+
+  const resFormula = i * auxModificador
+
+  const res = resFormula
+
+  return res
+
+}
+// ONDE SERA USADO
+console.log(Multiplica(10))
+  ```
 
 # CONDICIONAIS
 - Recurso : Condicionais : DAR AO USER A OPÇÃO DE DAR UM INPUT - QUE ESTEJA ENTRE AS OPCOES DISPONIVEIS EM UM OBJETO > SEM IFS
@@ -57,5 +75,8 @@ Nomes_Arquivos_de_Test : nomea-los com o nome do que ele esta testando, ex: Test
 2 - faz a funcao que vai receber o input e devolver as opcoes do objDeOpcoes
  -- que recebe a escolha e retorna o objDeOpcoes [ na posicao do input recebido]() e ja auto executa porque as opcoes sao funcoes/metodos.
 
+# CONVENCOES
+Nome_Variavel: Escolha pelo que ela irá fazer ou guardar, dica: no uso voce lendo a variavel voce identifica o que ela faz, padrao: para nomes compostos use Substantivo+Verbo
 
+Nome de Funcao: Escolha pelo que ela irá fazer, dica: no uso voce lendo a funcao voce identifica o que ela faz, padrao: para nomes compostos use Substantivo+Verbo ex: Multiplica() vai multiplica o que tiver dentro ou no param.
 
