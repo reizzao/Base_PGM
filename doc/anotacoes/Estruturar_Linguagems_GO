@@ -22,7 +22,5 @@ exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo 
 
 - em GO os metodos tem que estar no mesmo pacote da estrutura de tipo do Objeto a ser usado como seu this
 
-- constantes tem que serem tudo MAIUSCULA OS NOMES DA VARIAVEL
 
-- Crie alias apelido para importacoes dentro do arquivo assim se for mudar muda somente a url d eimportacao , porque o resto esta usando a variavel, nomeie a var de importacão com no minimo 3letras_abrevidas para nao confundir o compilador com parametro de funcoes e metodos.
 

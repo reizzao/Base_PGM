@@ -80,3 +80,12 @@ Nome_Variavel: Escolha pelo que ela irá fazer ou guardar, dica: no uso voce len
 
 Nome de Funcao: Escolha pelo que ela irá fazer, dica: no uso voce lendo a funcao voce identifica o que ela faz, padrao: para nomes compostos use Substantivo+Verbo ex: Multiplica() vai multiplica o que tiver dentro ou no param.
 
+nome de constantes : constantes tem que serem tudo MAIUSCULA OS NOMES DA VARIAVEL
+
+nome de apelidos/alias :
+  - em linguagens de pacotes como go : -  Crie alias apelido para importacoes dentro do arquivo assim se for mudar muda somente a url de importacao , porque o resto esta usando a variavel, nomeie a var de importacão com no minimo 3letras_abrevidas para nao confundir o compilador com parametro de funcoes e metodos.
+
+  - como escolher abreviacao de nomes de pacotes por arquivo : use a abreviacao do nome original com no minimo 3 letras ex: para ModelCampoHarmonico use mch.
+
+pastas para pacotes: como podem haver mais de 1 arquivo da mesma familia , nomeie dentro da entidade a pastaPacote exemplo: com nome da entidadee o que ela possui exemplo: modelcomposicao/ , usecasecomposicao/
+
