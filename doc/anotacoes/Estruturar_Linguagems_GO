@@ -19,3 +19,10 @@ golint : https://dev.to/guiyomh/golangci-lint-a-powerful-and-complete-go-linter-
 recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO EMSMO TIPO PROMETIDO NA DECLARACAO
 - declarar mapa : variavel = map[tipoValorChave]tipoValorDoValordaChave
 exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo com o tipo prometido apra cada uma }
+
+- em GO os metodos tem que estar no mesmo pacote da estrutura de tipo do Objeto a ser usado como seu this
+
+- constantes tem que serem tudo MAIUSCULA OS NOMES DA VARIAVEL
+
+- Crie alias apelido para importacoes dentro do arquivo assim se for mudar muda somente a url d eimportacao , porque o resto esta usando a variavel, nomeie a var de importacão com no minimo 3letras_abrevidas para nao confundir o compilador com parametro de funcoes e metodos.
+
