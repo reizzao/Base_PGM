@@ -89,3 +89,28 @@ nome de apelidos/alias :
 
 pastas para pacotes: como podem haver mais de 1 arquivo da mesma familia , nomeie dentro da entidade a pastaPacote exemplo: com nome da entidadee o que ela possui exemplo: modelcomposicao/ , usecasecomposicao/
 
+# NOMEACAO ARQUIVOS
+- nome arquivo principal da pasta : main
+- nome arquivo para response : response
+
+# TIPAGENS
+- para cada chave crie um tipo Response até chegar no seu primitivo , exemplo: em response.go / ResRequest // ResRequest = string
+
+# RODANDO TEST OFICIAL
+- em golang o comando para rodar o test tem que ser dado na pasta raiz onde tem o main.extensao principal master da app.
+
+# TESTS OFICIAIS DE GARANTIA
+	   - crie o tipo do response do sut : ex: ResSut = tipo
+	   - crie a var auxiliar global no test , chamada sut , para ser a funcionalidade principal a ser testada no test.
+	   - crie suite de test conforme pede a linguagem : em golang tem que comecar com Test_NOmeEntidade( e receber parametro da lib de test ex: t *testing.T )
+	   - dentro crie a varAuxiliar expect que sera o resultado esperado no test,
+	   - e tambem a varAuxiliar compare que sera o resultado que voce queira comparar com o resultado do sut,
+	   - faça a condicional usando operadores logicos para definir o que fazer comparando sut e o que voce quer comparar
+	   - por consequencia lance um erro da linguagem usando o parametro de test , para caso nao seja o esperado exploda um erro parando o test.
+
+# ENTIDADE ACOES
+- 1º cria a estrutura model com os campos que tera a entidade.
+- 2º cria funcoes exemplo: CRUD para criar objeto(s) da entidade ja estruturada.
+- 3º test oficial de garantia : faça tests dos [casos de uso, ]
+- 4º opcao test com testers comeca os tests : crie inputTester para preencher em forma de tester o que é peddo no usecase --> testers do casoDeUso com o inputTester : (SE O USAR)crie um main.testers para concentrar todos casosDeuso com os input testers -> e chame este testers.main no main da app para acompanhar os testers.
+
