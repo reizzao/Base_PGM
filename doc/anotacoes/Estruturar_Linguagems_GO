@@ -40,5 +40,12 @@ funcao :  func() tipoDoRetorno , exemplo: var foo =  func() string
 
 # DECLARACOES - ATRIBUICOES
 Atribuir_funcao_a_uma_variavel: var foo =  func() string
+declarar_mais_de_uma_variavel_livre_sem_escopo_ao_mesmo_tempo :
+exemplo: `
+var (
+	Variable1      = "foo1"
+	Variable2      = "foo2"
+)
+`
 
 # interpolacao de strin
