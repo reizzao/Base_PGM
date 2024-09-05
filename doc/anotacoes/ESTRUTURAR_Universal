@@ -114,3 +114,6 @@ pastas para pacotes: como podem haver mais de 1 arquivo da mesma familia , nomei
 - 3º test oficial de garantia : faça tests dos [casos de uso, ]
 - 4º opcao test com testers comeca os tests : crie inputTester para preencher em forma de tester o que é peddo no usecase --> testers do casoDeUso com o inputTester : (SE O USAR)crie um main.testers para concentrar todos casosDeuso com os input testers -> e chame este testers.main no main da app para acompanhar os testers.
 
+# ALGORITMOS
+resultado: em funcoes de servico sempre retorne uma variavel de resultado , construa este resultado antes guarde em uma varDeResultado (assim vc tem a chance de converter este resultado apra o tipo desejado de saida) e retorne esta var resultado
+exemplo: var formula = foo --> var res = formula -> return res
