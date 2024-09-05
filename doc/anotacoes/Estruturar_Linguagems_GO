@@ -17,6 +17,7 @@ importante: a lib tem que estar sempre em um pacote que esteja na raiz do projet
 
 ### encontrar Modulos_Libs_Externas :
   em_Go : comandos terminal : `GoLib && go mod tidy && go get <nomeDoModulo_endereco_Github> `
+  detalhes: via github o pacote alvo tem que ser escrito sua url completa atá a ultima pasta sem a barra / ex: enderecogitub/pacotealvo
 
 ### OBJETO MAPA
 recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO EMSMO TIPO PROMETIDO NA DECLARACAO
