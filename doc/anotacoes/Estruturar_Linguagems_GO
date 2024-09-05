@@ -31,3 +31,9 @@ exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo 
 TemplateLiterals_VariasLinhasTexto: Dentro de Aspas/crazes ex: `texto em cada linha aqui sem precisar usar \n a cada fim de linha desejada`.
 
 Interpolacao_De_Variavel: numero :`%d`, texto `%s`, decimais: `%.2f - explicacao: por padrao o %f exibe 6 casas decimais - vc pode definir quantas casas quer mostrar após o % com ponto numeroDecasas e o f - exemplo: %2.f vai mostrar 2 numeros depois do ponto.`
+
+# TIPOS DA LINGUAGEM
+funcao :  func() tipoDoRetorno , exemplo: var foo =  func() string
+
+# DECLARACOES - ATRIBUICOES
+Atribuir_funcao_a_uma_variavel: var foo =  func() string
