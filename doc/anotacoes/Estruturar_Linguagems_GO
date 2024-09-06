@@ -25,6 +25,8 @@ recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO EMSMO TIPO PROMETIDO
 exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo com o tipo prometido apra cada uma }
 
 - em GO os metodos tem que estar no mesmo pacote da estrutura de tipo do Objeto a ser usado como seu this
+    detalhes: [ preciso aponta o t de this, mas nem sempre preciso usa-lo: é só praapontar o obj dono do metodo.,
+    ]
 
 
 # PRIMITIVO STRINGS TEXTOS  :: EM GOLANG
