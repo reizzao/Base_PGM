@@ -20,7 +20,7 @@ importante: a lib tem que estar sempre em um pacote que esteja na raiz do projet
   detalhes: via github o pacote alvo tem que ser escrito sua url completa atá a ultima pasta sem a barra / ex: enderecogitub/pacotealvo
 
 ### OBJETO MAPA
-recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO EMSMO TIPO PROMETIDO NA DECLARACAO
+recurso: OBJETO MAPA DEVOLVE UM OBJETO COM CHAVE E VALOR DO MESMO TIPO PROMETIDO NA DECLARACAO
 - declarar mapa : variavel = map[tipoValorChave]tipoValorDoValordaChave
 exemplo : var myMapa = map[string]string{ // aqui as chaves e valores de acordo com o tipo prometido apra cada uma }
 
@@ -50,4 +50,4 @@ var (
 )
 `
 
-# interpolacao de strin
+# interpolacao de string
