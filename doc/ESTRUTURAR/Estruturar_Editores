@@ -4,3 +4,6 @@
 
 # PESQUISAS
 - encontrar_artefato : Ctrl+P / #NomeDoArtefato // após o ctrl+p só colocar #Hasteg e depois sem espaço o nome da variavel
+
+# Transformacoes
+Transformar em titulo_minuscula_maiuscula : Seleciona o texto - Ctrl+shift+ P : digita Trasnform em Title case ||Lower || Uppercase
