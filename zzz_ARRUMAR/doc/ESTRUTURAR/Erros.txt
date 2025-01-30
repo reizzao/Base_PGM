@@ -1,0 +1,5 @@
+
+Erro de Objeto nao retornado : é o erro [object Object]
+problema: onde este objeto esta sendo retornado não foi aberto o campo especifico dele.
+solucao: volte onde ele esta sendo retornado e de um . ponto propriedade esperada para ser aproveitada.
+
