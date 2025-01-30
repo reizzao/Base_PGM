@@ -1,4 +1,21 @@
 
+// 1 - interno : Onde seria uma função pode ser um método de uma classe , evitaria hell de funções e abriria opções de operações.
+class DepRecursoCliClass {
+  OpOla (d) {
+    return `Ola ${d}`
+  }
+
+  OpComoVai (d) {
+    return `Como vai ${d}`
+  }
+
+  EmStandyBy1 (d) {
+    return `EmStandyBy1 ${d}`
+  }
+
+ }
+ 
+
 //  - Interno: O Cli precisa usar algum recurso e pra isso criamos uma função - Aqui escolho os recursos que posso disponibilizar ao Cli.
 class RecursoCli  {
   i = new DepRecursoCliClass()
@@ -32,21 +49,7 @@ class RepositoyGetRequestRecursoMemory {
 
 const inuseRepositoyGetRequestRecurso = new RepositoyGetRequestRecursoMemory()
 
-//  - interno : Onde seria uma função pode ser um método de uma classe , evitaria hell de funções e abriria opções de operações.
-class DepRecursoCliClass {
- OpOla (d) {
-   return `Ola ${d}`
- }
 
- OpComoVai (d) {
-   return `Como vai ${d}`
- }
-
- EmStandyBy1 (d) {
-   return `EmStandyBy1 ${d}`
- }
-
-}
 
 //  - interno : Passamos um obj que instância um método de recurso ao cli.
 const obj_Insta_RecursoCliOptions = new RecursoCli()
