@@ -1,0 +1,22 @@
+
+Instalacao: (https://docs.docker.com/engine/install/)
+
+fluxo: siga os passos de comandos em Installation methods (Metodos de Instalacao) - por ultimo não precisa dar hello word é só conferir a instalação com  `sudo docker ps  e depois: sudo docker version`
+
+Loja_de_Imagens: (https://hub.docker.com/)
+acesso: vinculado a conta google reizao1977 -- usuario : reizao1977 -- nao precisa senha
+
+Comandos_Auxiliares
+  sair_da_iteracao_no_terminal: `exit`
+
+Informacoes:
+  ver_todos_containers_em_execução: docker ps
+  ver_todos_containers_ja_rodados_e_status_atual: docker ps -a
+
+Instalar_Puxar_imagem : sudo docker pull NOME_DA_IMAGEM
+Rodar_Imagem_Baixada : sudo docker run NOME_DA_IMAGEM
+
+Formas_de_Uso_das_Imagens:
+  iteragir_usar_so_no_terminal: sudo docker run -it NOME_DA_IMAGEM  (obs: USAR O -it para interação)
+
+  em_projetos_via_DockerFile:
