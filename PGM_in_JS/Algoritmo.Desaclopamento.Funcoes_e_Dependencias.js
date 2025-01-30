@@ -1,6 +1,7 @@
 
-// 1 - interno : Onde seria uma função pode ser um método de uma classe , evitaria hell de funções e abriria opções de operações.
-class DepRecursoCliClass {
+// 2 - Onde seria uma função pode ser um método de uma classe , evitaria hell de funções e abriria opções de operações.
+
+class DepRecursoRepo {
   OpOla (d) {
     return `Ola ${d}`
   }
@@ -14,25 +15,25 @@ class DepRecursoCliClass {
   }
 
  }
- 
 
-//  - Interno: O Cli precisa usar algum recurso e pra isso criamos uma função - Aqui escolho os recursos que posso disponibilizar ao Cli.
+
+// 1 - O Cli precisa usar algum recurso e pra isso criamos uma função - Aqui escolho os recursos que posso disponibilizar ao Cli.
 class RecursoCli  {
-  i = new DepRecursoCliClass()
+  i = new DepRecursoRepo()
 
- Re_OpOla (d) {
+ OpOla (d) {
   const dep = inuseRepositoyGetRequestRecurso.getArgumentRecurso(d)
  return this.i.OpOla(dep)
  }
 
- Re_OpComoVai (d) {
+ OpComoVai (d) {
   const dep = inuseRepositoyGetRequestRecurso.getArgumentRecurso(d)
  return this.i.OpComoVai(dep)
  }
 
 }
 
-// 1 - Externo: Recebemos o Objeto de Pedido do Cli
+// 3 - Externo: Recebemos o Objeto de Pedido do Cli
 class FormatRequest  {
 
  getDep1(d) {
@@ -40,14 +41,14 @@ class FormatRequest  {
  }
 }
 
-class RepositoyGetRequestRecursoMemory {
+class GetRequestRecursoRepoMemory {
 
   getArgumentRecurso (d) {
     return d
   }
 }
 
-const inuseRepositoyGetRequestRecurso = new RepositoyGetRequestRecursoMemory()
+const inuseRepositoyGetRequestRecurso = new GetRequestRecursoRepoMemory()
 
 
 
@@ -59,7 +60,7 @@ const instaFormatRequestRecurso = new FormatRequest()
 
 //  - Interno : Recurso Ofertado.
 console.log(
- obj_Insta_RecursoCliOptions.Re_OpOla (
+ obj_Insta_RecursoCliOptions.OpOla (
   instaFormatRequestRecurso.getDep1(
     {
       dep1 : "Rei2"
