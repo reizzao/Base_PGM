@@ -1,0 +1,29 @@
+
+- Instalar_Ambiente:
+    tutorial: https://go.dev/doc/install
+    passos:
+    # corrigir linux
+    sudo dpkg --configure -a
+    # instalar golang
+    sudo apt-get install golang
+    # ver versao
+    go version
+    # fazer o sistema reconhecer a varivel de ambiente do pacote - como: add a var de ambiente do programa/bin ao PATH Caminho do sistema :
+    export PATH=$PATH:/usr/local/go/bin
+
+    Codigo_Tester:
+    `
+    package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+
+    `
+
+Executando_Arquivo: go run arquivo.go
+
+- Projeto :
+  - Iniciar_Projeto: go mod github.com/projeto
