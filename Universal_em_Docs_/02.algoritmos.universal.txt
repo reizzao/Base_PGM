@@ -1,4 +1,4 @@
 
 Estruturadores :
 
-enum : quando quér que um campo tenha não somente uma resposta e sim tenha opções de respostas todos do mesmo tipo esperado.
+Enum : quando quér que um campo tenha não somente uma resposta e sim tenha opções de respostas todos do mesmo tipo esperado.
