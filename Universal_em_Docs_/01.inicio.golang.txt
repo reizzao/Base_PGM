@@ -29,3 +29,4 @@ Executando_Arquivo: go run arquivo.go
   - Iniciar_Projeto:
         - modular: go mod init github.com/projeto
         - atualizar_modulacao: go mod tidy
+
