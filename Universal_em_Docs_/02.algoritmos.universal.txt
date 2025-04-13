@@ -1,4 +1,8 @@
 
+Design_Entidades : preferir organizar pastas por entidade, dentro da entidade tenha tudo [  data/tester, type, test, usecases, prepare, rules, repositories ]
+técnica :: Poder ter mais agrupe tudo nele como um objeto .
+
+
 Estruturadores :
 
 Enum : quando quér que um campo tenha não somente uma resposta e sim tenha opções de respostas todos do mesmo tipo esperado.
