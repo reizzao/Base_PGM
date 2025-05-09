@@ -12,4 +12,8 @@ Indelegaveis: somente delegue acoes que usam as propriedades da entidade vigente
 
 Criacional:
   em JS : javascript nao tem operador para tornar o constructor privado, entao temos que criar uma variavel fora controle_constructor , e no construtor verifica-la se tentarem instanciar pelo construtor devolve rum erro, e no metodo statico de criacao mudar essa variavel para verdadeiro para criar a instancia.
-  
+
+  Criacao_entidade_Padrao :
+  1- cria estrutura [ class, struct]
+  2- cria funcao para instanciar a estrutura
+  3- usa funcao de console para visualizar no tester
