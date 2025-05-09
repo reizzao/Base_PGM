@@ -7,3 +7,5 @@
 # Ferramentas por Linguagem :
 
 Composicao: em Js , para delegar para outras estruturas temos que guardar numa Variavel essa estrutura delegavel onde se inicia as propriedades ou seja no no constructor.
+
+Indelegaveis: somente delegue acoes que usam as propriedades da entidade vigente, acoes que nao usam as props do objeto tem que ser um objeto serviçal a parte.
