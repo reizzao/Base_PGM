@@ -1,0 +1,9 @@
+
+# Arquitetura com Repositorios :
+1- primeiro cria a Estrutura Entidade > essa vai guardar no Repo suas informacoes, delegando suas acoes a este Repo
+2- Estrutura Repositorio: será igual a entidade se cria o repositorio [ memory, externals ]
+
+---
+# Ferramentas por Linguagem :
+
+Composicao: em Js , para delegar para outras estruturas temos que guardar numa Variavel essa estrutura delegavel onde se inicia as propriedades ou seja no no constructor.
