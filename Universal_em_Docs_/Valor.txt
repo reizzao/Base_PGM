@@ -1,0 +1,7 @@
+# Ferramentas
+
+Valores :
+
+Enum : quando quér que um campo tenha não somente uma resposta e sim tenha opções de respostas todos do mesmo tipo esperado.
+
+- para definir se um valor sera um objeto ou outro do mesmo tipo use interface em golang

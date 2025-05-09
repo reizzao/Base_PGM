@@ -1,0 +1,6 @@
+# Algoritmos
+
+Definir_Informacao_Objeto : 1º definir na tipagem os campos do objeto que sera default ou request.
+
+Default: informacao já definidas por padrao.
+Request: informacoes que o utilizador vai Enviar ou escolher entre as pré definidas.
