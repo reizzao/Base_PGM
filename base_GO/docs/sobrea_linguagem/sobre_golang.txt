@@ -1,0 +1,8 @@
+
+# metodo
+  conceito: metodos são funcoes que fazem parte de um objeto
+
+  como_criar: após criar a estrutura do objeto - faça separado uma funcao e antes do nome dela dentro d eaprenteses coloque uma variavel que sera o this e o nome da estrutura e dentro do metodo use essa variavel this para acessar as props do objeto como this.
+
+  exemplo: func (e  Estrutura) NomeDaFuncao() {}
+
