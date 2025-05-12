@@ -4,24 +4,20 @@ import "fmt"
 
 // 1. Interface
 type EntyInterface interface {
-	addEnty()
-	deleteEnty()
-	modifyEnty()
+	Add()
+	Delete()
 }
 
 // 2. Implementation
-type EntyInterfaceImpl struct{}
+type EntyInterfaceImpl struct{} // tipo da implementacao :
 
-func (i EntyInterfaceImpl) addEnty() {
-	fmt.Println("adicionado Enty")
+// implementacoes Memory
+func (i EntyInterfaceImpl) Add() {
+	fmt.Println("Memory adicionado Enty")
 }
 
-func (i EntyInterfaceImpl) deleteEnty() {
-	fmt.Println("deletado Enty")
-}
-
-func (i EntyInterfaceImpl) modifyEnty() {
-	fmt.Println("modificado Enty")
+func (i EntyInterfaceImpl) Delete() {
+	fmt.Println("Memory deletado Enty")
 }
 
 // 3. Construct
@@ -30,15 +26,55 @@ func EntyRepositoryMemory() EntyInterfaceImpl {
 	return EntyInterfaceImpl{}
 }
 
-// 4. Important - Control Repository
-var entyImportantRepository = EntyRepositoryMemory()
+var ObjEntyImportantRepository = EntyRepositoryMemory()
 
-// 5. useMain
+// -- Outro Arquivo
+// implementacoes External_1
+
+// tipo da implementacao :
+type EntyInterfaceImpl_2 struct {
+	EntyInterfaceImpl
+}
+
+func (i EntyInterfaceImpl_2) Add() {
+	fmt.Println("External_1 adicionado Enty")
+}
+
+func (i EntyInterfaceImpl_2) Delete() {
+	fmt.Println("External_1 deletado Enty")
+}
+
+func EntyRepositoryexternal_1() EntyInterfaceImpl_2 {
+	return EntyInterfaceImpl_2{}
+}
+
+var ObjEntyRepositoryexternal_1 = EntyRepositoryexternal_1()
+
+// Fim -- implementacoes External_1 ---
+
+// -- Outro Arquivo -- Fim
+
+// 4. Important - Control Repository :: by useMain
+
+// Important : Escolha do Repo em USO
+
+type Option struct {
+	Memory     EntyInterfaceImpl
+	External_1 EntyInterfaceImpl_2
+}
+
+var OptionsEntyRepository = Option{
+	Memory:     ObjEntyImportantRepository,
+	External_1: ObjEntyRepositoryexternal_1,
+}
+
+var RepoINUSE = OptionsEntyRepository.Memory
+
+// var RepoINUSE = OptionsEntyRepository.External_1
 
 func ProMainEnty() {
-	entyImportantRepository.addEnty()
-	entyImportantRepository.deleteEnty()
-	entyImportantRepository.modifyEnty()
+	RepoINUSE.Add()
+	RepoINUSE.Delete()
 }
 
 // Main
