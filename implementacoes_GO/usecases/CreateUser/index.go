@@ -9,3 +9,4 @@ func CreateUser(u Dto.CreateUserDTO) t.User {
 	res := PrepareCreateUser(u)
 	return res
 }
+

@@ -13,7 +13,7 @@ func PrepareCreateUser(u Dto.CreateUserDTO) t.User {
 		Sobrenome: u.Sobrenome,
 	}
 
-	res := controlators.UserRepository.Save(form)
+	res := controlators.UserRepositoryINUSE.Save(form)
 
 	return res
 }

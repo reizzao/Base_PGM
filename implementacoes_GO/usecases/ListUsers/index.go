@@ -6,7 +6,7 @@ import (
 )
 
 func ListUser() []*entitys.User {
-	res := controlators.UserRepository.List()
+	res := controlators.UserRepositoryINUSE.List()
 	return res
 }
 
