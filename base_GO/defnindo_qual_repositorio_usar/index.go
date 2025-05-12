@@ -24,8 +24,11 @@ var i_principal_json = Principal{
 // 3 - Metodo: dar acoes ao novotipo - Não precisa fazer metodo para instancias - somente funcoes de repositorio
 
 // 4 - Repositorio - contrato de acoes que o principal pode fazer
+// todo: na real nao to usando esta instancia : IRepoPrincipal como obj - mas esta tendo outro uso
+
 type IRepoPrincipal interface {
 	Iandar() string
+	Ivooar() string
 }
 
 func (i Principal) Iandar() string {
@@ -42,6 +45,7 @@ type Iinuse struct {
 	Voar  string
 }
 
+// na real aqui tem que voltar uma interface : IRepoPrincipal
 var inuse_1 = func(principal Principal) Iinuse {
 	res := Iinuse{
 		Andar: principal.Iandar(),
@@ -53,13 +57,13 @@ var inuse_1 = func(principal Principal) Iinuse {
 }
 
 // Criando o controlador de Repo_em_Uso
-// var constrol_INUSE = i_principal_memory
 var constrol_INUSE = i_principal_json
+var constrol_INUSE_2 = i_principal_memory
 
 func main() {
 
 	// Usando o Controlador de Repo_em_Uso -
 	fmt.Println(inuse_1(constrol_INUSE).Andar)
-	fmt.Println(inuse_1(constrol_INUSE).Voar)
+	fmt.Println(inuse_1(constrol_INUSE_2).Voar)
 
 }
