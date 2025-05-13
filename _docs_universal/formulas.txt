@@ -1,0 +1,3 @@
+
+Se não vier informacoes em um campo, guarde neste campo algo que gere a informacao imediata ao executa-lo
+-- exemplo: if(!id) { this.id = makeID() }

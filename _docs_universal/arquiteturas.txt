@@ -1,8 +1,42 @@
 # Arquiteturas
 
-Criacional
+## Constantes :
+- Contrato_e_Implementacoes : pasta de contratos sempre inserir nela a pasta implementations para cumprir o contrato ali guardado.
+
+
+// --------------------------------------
+
+### Criacional
 RepositoryPatterne
 - Em_Golang :
+
+// by Net
 1. Interface
 2. Implementation
 3. Construct
+
+// --------------------------------------
+
+// by Solid_Rocket
+- em TS :
+
+1 - pasta: entities/ - objeto gerador de entidade : class Enty (campos, construtor preenchimento campos > com id opcional e logica para a app sempre preencher o campo identificador ao inves da base de dados, )
+
+2 - pasta: UseCases/ - acoes que a Enty pode fazer na app - sera uma funcao dentro de um objeto que vai executar o nome do Objeto, exemplo: CreateEnty/CreateEntyUseCase.ts :: será um objeto com metodo execute() - que delega um contrato a a sua missao.
+aplica : regras de negocio
+- verifica se ja existe - salva()
+
+
+3 - pasta UseCases/FuncionalidadeController - sera um objeto com um metodo <Perform() | Handle()> que executa o nome de Funcionalidade do Objeto - recebe em parametros com funcionalidade do servidor externo e delega ao UseCase a missao - e responde ao servidor os retornos de sucesso e erro. - vai usar o Usecase/Funcionalidade
+
+4 - DTO Contrato do objeto com somente os dados request que o client request tem que enviar , exemplo: ICreateEntyRequestDTO
+
+5 - pasta: repositories/ - repositories/ IEntyRepository - contrato de todas acoes que a entidade tem que ter para quem obedecer esse contrato pode manipular as informacoes dela mesmo guardando onde quiser as info ,sendo memory- json- external, etc.
+exemplo acoes : ( findByemail(email) para verificar se email ja existe antes de cirar nova enty, save(enty) vai salvar a enty nova no bd,  )
+
+6 - pasta: implementations/ dentro de repositories e tambem dentro de providers - onde em cada uma delas implementa o contrato nelas guardados. - exemplo: MemoryEntysRepository.ts || PostgresEntysRepository.ts
+
+7 - pasta: providers/ são so provedores onde ficam os contratos das acoes externas - exemplo: IMailProvider.ts (Contrato)
+
+8 - pasta de Usecase/Funcionalidade :: objeto com instanciacões das implemnetações das dependencias dos constratos para ser usado no Controller junto com o servidor.
+---
