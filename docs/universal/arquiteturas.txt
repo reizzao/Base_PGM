@@ -22,7 +22,7 @@ RepositoryPatterne
 
 1 - pasta: entities/ - objeto gerador de entidade : class Enty (campos, construtor preenchimento campos > com id opcional e logica para a app sempre preencher o campo identificador ao inves da base de dados, )
 
-2 - pasta: UseCases/ - acoes que a Enty pode fazer na app - sera uma funcao dentro de um objeto que vai executar o nome do Objeto, exemplo: CreateEnty/CreateEntyUseCase.ts :: será um objeto com metodo execute() - que delega um contrato a a sua missao.
+2 - pasta: UseCases/ - acoes que a Enty pode fazer na app - sera uma funcao dentro de um objeto que vai executar o nome do Objeto, exemplo: CreateEnty/CreateEntyUseCase.ts :: será um objeto com metodo execute() - que delega um contrato de repositorio a a sua missao.
 aplica : regras de negocio
 - verifica se ja existe - salva()
 

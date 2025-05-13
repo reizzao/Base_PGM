@@ -1,0 +1,8 @@
+# Configuracoes
+
+Contrato
+- conceito configuracao de como será devolvido algo
+Possiveis
+- funcao : configura como sera devolvido Algo uma funcionalidade, quando alguém ao executa-la
+- struct : configura o tipo dos campos, ao instancia-la, usam: [ golang, ]
+- configurador_de_acoes_possiveis: em_golang: interface , em_ts: interface e type
