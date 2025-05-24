@@ -1,0 +1,3 @@
+exportacao: melhor demarcar export direto na variável,  porque no fim do arquivo, quando renomear o artefato ele coloca um apelido alias.
+
+criar_campos_do_obj  : em classe crie os campos no construtor
