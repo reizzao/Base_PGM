@@ -6,3 +6,6 @@ Possiveis
 - funcao : configura como sera devolvido Algo uma funcionalidade, quando alguém ao executa-la
 - struct : configura o tipo dos campos, ao instancia-la, usam: [ golang, ]
 - configurador_de_acoes_possiveis: em_golang: interface , em_ts: interface e type
+
+- Entidade_de_Dados
+Resumo: tem que ter uma função para criar seu casoDeUso[Crud] e essa função tem que receber os dados do Utilizador e devolver o que foi salvo na base de dados[repositorio]
