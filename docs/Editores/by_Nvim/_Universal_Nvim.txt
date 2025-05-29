@@ -36,7 +36,7 @@ Inserção : vc escreve coisas novas , acesso: i,
 
 Substituição: replace vc escreve por cima , acesso: 2x tecla INSERT,
 
-Visual: , acesso: Esc v,
+Visual: , acesso: Esc v, ou ao selecionar
 ]
 
 ---
@@ -60,7 +60,7 @@ salvar_com_outro_nome: w ./localidade/nomearquivoNovo.extensao
 
 ---
 
-Modo Visual : acesso: Esc v
+Modo Visual : acesso: Esc v, ou selecionou qualquer texto já entra em visual, significa: só visualizar.
 
 copiar_selecionado: seleciona y, 
 copia_linha: yy, 
