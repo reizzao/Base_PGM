@@ -51,11 +51,15 @@ salvar_com_outro_nome: w ./localidade/nomearquivoNovo.extensao
 
 
 ---
-Modo Visual
+
+Modo Visual : acesso: Esc v
+
 copiar_selecionado: seleciona y, 
 copia_linha: yy, 
 colar: p, significa: paste / colar
 deletar: d, significa: delete
+selecionar_varias_linhas: seta pra cima ou pra baixo.
+
 
 
 ---
