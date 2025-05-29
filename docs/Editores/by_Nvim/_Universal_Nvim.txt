@@ -61,6 +61,9 @@ deletar: d, significa: delete
 selecionar_varias_linhas: seta pra cima ou pra baixo.
 recortar_jogarPraMemoria: td, dps ao colar pode colar quantas vezes quiser porque foi pra memória.
 
+usar_atalhos_com_numerosLinha: número De Linhas <comandoAtalho> ex: 9 dd vai apagar da linha atual até 9 linhas pra baixo,para esses é bom usar o numerador padrão de linhas do vim.
+
+
 
 
 ---
