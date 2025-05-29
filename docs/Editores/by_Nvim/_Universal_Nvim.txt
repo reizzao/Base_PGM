@@ -11,6 +11,15 @@ Comandos:
 Configuracoes:
  Deixar_Cursor_Airb : `vim.cmd([[ set gui cursor= ]])`
 
+---
+Universal VIM
+
+O Editor Possui 3 modos: [Comandos, Inserção e Substituição]
+
+
+
+
+
 
 ---
 
