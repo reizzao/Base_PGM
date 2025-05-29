@@ -23,12 +23,14 @@ Universal VIM
 
 Instalacao: VIM:: `sudo apt install vim`
 
-O Editor Possui 3 modos: [
+O Editor Possui 4 modos: [
 Comandos: vc sempre volta pra esse ao dar Esc, acesso: Esc, 
 
 Inserção : vc escreve coisas novas , acesso: i,
 
 Substituição: replace vc escreve por cima , acesso: 2x tecla INSERT,
+
+Visual: , acesso: Esc v,
 ]
 
 Modo/Insercao
@@ -47,6 +49,11 @@ salvar_e_sair: wq!, significa: write quit firme, salvar sair forçado.
 salvar_com_outro_nome: w ./localidade/nomearquivoNovo.extensao
 
 
+
+---
+Modo Visual
+copiar_selecionado: seleciona y, 
+colar: p, significa: paste / colar
 
 ---
 
