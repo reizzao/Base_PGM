@@ -24,7 +24,7 @@ Universal VIM
 Instalacao: VIM:: `sudo apt install vim`
 
 Utils:
- - se for fazer comando Maiusculo é só usar shif+Letra, não precisa primeiro deuxa-la maiuscula.
+ - se for fazer comando Maiusculo é só usar shif+Letra, não precisa primeiro deixa-la maiuscula use o shift no lugsr do Capslock.
 
 O Editor Possui 4 modos: [
 Comandos: vc sempre volta pra esse ao dar Esc, acesso: Esc, 
@@ -74,6 +74,9 @@ unir_fim_da/linhaDeBaixoVomADeCima. shif+j
 mover_entre_palavras/ou_linhas: shift+SETAS
 ir_fim_da_linha: tecla END ou ^^
 ir_comeco/linha: tecla HOME ou $
+ir_pra_linha: :número Da_Linha ex. :10 vai pra linha 10
+ir_pra_ultima_linha: shift+g , útil pra quem não sabe o número da última linha.
+
 
 
 ---
