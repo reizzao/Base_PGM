@@ -1,0 +1,5 @@
+# Comandos_Bash
+
+encontrar_arquivo: locate parteDoNomeArquivoAlvo // vai trazer ocorrências de locais
+
+mostrar_conteudo_arquivo: cat ./endereco/alvo.extencao
