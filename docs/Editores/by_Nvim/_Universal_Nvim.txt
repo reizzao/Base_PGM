@@ -10,3 +10,9 @@ Comandos:
 
 Configuracoes:
  Deixar_Cursor_Airb : `vim.cmd([[ set gui cursor= ]])`
+
+
+---
+
+Links
+- aulas vim e linux com Fonseca: https://youtube.com/@fonsecavagner?si=ZU1BRs1WvNo7aZeR
