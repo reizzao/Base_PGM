@@ -36,6 +36,8 @@ Substituição: replace vc escreve por cima , acesso: 2x tecla INSERT,
 Visual: , acesso: Esc v,
 ]
 
+---
+
 Modo/Insercao
 
 Atalhos : 
@@ -51,7 +53,7 @@ salvar_e_continuar: w, significa: write / escrever
 salvar_e_sair: wq!, significa: write quit firme, salvar sair forçado.
 salvar_com_outro_nome: w ./localidade/nomearquivoNovo.extensao
 
-mover_entre_palavras/ou_linhas: shift+SETAS
+
 
 ---
 
@@ -67,6 +69,11 @@ recortar_jogarPraMemoria: td, dps ao colar pode colar quantas vezes quiser porqu
 usar_atalhos_com_numerosLinha: número De Linhas <comandoAtalho> ex: 9 dd vai apagar da linha atual até 9 linhas pra baixo,para esses é bom usar o numerador padrão de linhas do vim.
 
 unir_fim_da/linhaDeBaixoVomADeCima. shif+j
+
+  Movimentacao
+mover_entre_palavras/ou_linhas: shift+SETAS
+ir_fim_da_linha: tecla END ou ^^
+ir_comeco/linha: tecla HOME ou $
 
 
 ---
