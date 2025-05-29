@@ -80,6 +80,7 @@ ir_comeco/linha: tecla HOME ou $
 ir_pra_linha: :número Da_Linha ex. :10 vai pra linha 10
 ir_pra_ultima_linha: shift+g , útil pra quem não sabe o número da última linha.
 ir_pra_proxima_ocorrencia: n
+ir_comeco_arquivo: gg ou :1
 
 
 
