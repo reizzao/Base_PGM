@@ -87,6 +87,8 @@ pular_entre_janelas: ctr+w w
 executar_comando_De_Terminal:  :!<comandoDeTerminal>, ex: !ls -a ou !go run main.go etc..., explicacao: é forçar o comando de terminal no modo comando di vim , somente ações não interativas que não demoram mostra e tchau fecha.
 obs: se inserir 1 ponto antes da ! ele salva no arquivo que estou usando o resultado do comando execurado: ex: :.!deno task run main.ts (k que retornar ele vai escrever em string no arquivo que estou.)
 
+copiar_arquivo_inteiro: em um novo arquivo :.!cat /endereco/Alvo.extensao , 
+
 ---
 
 Modo Comando : acesso: 2 pontos
