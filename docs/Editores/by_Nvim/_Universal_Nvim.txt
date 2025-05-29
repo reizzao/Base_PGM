@@ -35,6 +35,9 @@ Modo/Insercao
 
 Atalhos : 
 
+desfazer : u, significa: undo
+refazer: ctr+r ,significa: redo
+tab_na_linha : ctr+t da o tab, desfazer: ctr+d
 
 
 ---
