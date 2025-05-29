@@ -15,7 +15,7 @@ Configuracoes:
 Universal VIM
 
 O Editor Possui 3 modos: [
-Comandos, 
+Comandos: vc sempre volta pra esse ao dar Esc, , 
 Inserção : vc escreve coisas novas ,
 Substituição: replace vc escreve por cima 
 ]
