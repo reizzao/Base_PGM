@@ -91,6 +91,14 @@ pesquisar_texto: barra e o textoAlvo
 substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova/g , significa: s é de substituição e o /g no final quer dizer no arquivo inteiro , senão usar vai fazer a modificação somente na primeira occorrencia.,
 
 
+Customização:
+ para_dsligar_cystomizados: indica o: no na frente do comando ex. :noignorecase
+
+ ligar_hiligth_destacar_ocorrencias: sethlx ???
+ ligar_caseSensitive: set noignorecase , desligar: set ignorecase
+
+
+
 ---
 
 Links
