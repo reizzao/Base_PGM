@@ -7,3 +7,6 @@ PrimeiroPasso:
 Comandos:
   Editor
     - abrir_o_editor : `nvim`
+
+Configuracoes:
+ Deixar_Cursor_Airb : `vim.cmd([[ set gui cursor= ]])`
