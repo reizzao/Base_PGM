@@ -82,6 +82,7 @@ ir_pra_ultima_linha: shift+g , útil pra quem não sabe o número da última lin
 ir_pra_proxima_ocorrencia: n
 ir_comeco_arquivo: gg ou :1
 
+pular_entre_janelas: ctr+w w
 
 
 ---
