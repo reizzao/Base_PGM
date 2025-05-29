@@ -1,0 +1,9 @@
+# Universal Neovim
+
+PrimeiroPasso:
+- primeiro tem que instalar o neovim na maquina : `sudo apt install neovim`
+- depois instala as novas versoes modificadas.
+
+Comandos:
+  Editor
+    - abrir_o_editor : `nvim`
