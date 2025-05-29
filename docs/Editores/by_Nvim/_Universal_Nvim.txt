@@ -83,9 +83,10 @@ ir_pra_proxima_ocorrencia: n
 ir_comeco_arquivo: gg ou :1
 
 pular_entre_janelas: ctr+w w
-
+executar_comando_De_Terminal:  :!<comandoDeTerminal>, ex: !ls -a ou !go run main.go etc..., obs: é forçar o comando de terminal no modo comando di vim , somente ações não interativas que não demoram mostra e tchau fecha.
 
 ---
+
 Modo Comando : acesso: 2 pontos
 
 pesquisar_texto: barra e o textoAlvo 
