@@ -59,6 +59,7 @@ copia_linha: yy,
 colar: p, significa: paste / colar
 deletar: d, significa: delete
 selecionar_varias_linhas: seta pra cima ou pra baixo.
+recortar_jogarPraMemoria: td, dps ao colar pode colar quantas vezes quiser porque foi pra memória.
 
 
 
