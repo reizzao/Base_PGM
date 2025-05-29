@@ -21,6 +21,8 @@ Significados:
 
 Universal VIM
 
+Instalacao: VIM:: `sudo apt install vim`
+
 O Editor Possui 3 modos: [
 Comandos: vc sempre volta pra esse ao dar Esc, acesso: Esc, 
 
@@ -31,7 +33,7 @@ Substituição: replace vc escreve por cima , acesso: 2x tecla INSERT,
 
 Modo/Insercao
 
-
+Atalhos : 
 
 
 
