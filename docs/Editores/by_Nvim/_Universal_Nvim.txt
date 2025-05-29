@@ -92,9 +92,9 @@ substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova/g , significa: 
 
 
 Customização:
- para_dsligar_cystomizados: indica o: no na frente do comando ex. :noignorecase
+ para_desligar_customizados: insira o: no na frente do nome do comando ex. :set noignorecase
 
- ligar_hiligth_destacar_ocorrencias: sethlx ???
+ ligar_hilight_destacar_ocorrencias: set lhs , desligar: set nohls
  ligar_caseSensitive: set noignorecase , desligar: set ignorecase
 
 
