@@ -20,6 +20,9 @@ Significados:
 
 ---
 
+Recursos
+snippers : snnioets/atalhosDeTexto/Dicionário Ortográficos da pra fazer no vimrc todo: pesquise.,
+
 ---
 
 Universal VIM
