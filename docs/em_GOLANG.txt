@@ -1,5 +1,15 @@
+Plataforma
+Instalacao : https://go.dev/doc/install
+add_golang_ao_path_do_sistema: `export PATH=$PATH:/home/rzj/go/bin`
+
+---
+
 Projeto
 Remover_Dependencias_Nao_Usadas_no_gerenciador: go mod tidy
+
+---
+Libs : Externas
+interpolar string ( https://pkg.go.dev/text/template )
 
 ---
 
