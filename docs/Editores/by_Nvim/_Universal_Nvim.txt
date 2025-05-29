@@ -12,14 +12,24 @@ Configuracoes:
  Deixar_Cursor_Airb : `vim.cmd([[ set gui cursor= ]])`
 
 ---
+Significados: 
+
+- Buffer: buffet é a memoria, algo/arquivo que ainda não existe enquanto não for salvo, depois que é salvo sai da memória auxiliar e vira algo/arquivo concreto
+
+
+---
+
 Universal VIM
 
 O Editor Possui 3 modos: [
-Comandos: vc sempre volta pra esse ao dar Esc, , 
-Inserção : vc escreve coisas novas ,
-Substituição: replace vc escreve por cima 
+Comandos: vc sempre volta pra esse ao dar Esc, acesso: Esc, 
+
+Inserção : vc escreve coisas novas , acesso: i,
+
+Substituição: replace vc escreve por cima , acesso: 2x tecla INSERT,
 ]
 
+Modo/Insercao
 
 
 
