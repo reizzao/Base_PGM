@@ -1,5 +1,11 @@
+Projeto
+Remover_Dependencias_Nao_Usadas_no_gerenciador: go mod tidy
+
+---
+
 Modulacao: a modulacao acontece pelo nome do package obrigatório, que tem que ser o nome da pasta que o arquivo está dentro.
 
 PacotesComMesmoNome: é permitido, na importação que pode confeitar é só colocar uma variável de nome diferente ao avisar no acesso a URL do pacote alvo.
 
 ContratoDeConfiguracaoImplemntar_de_ObjetoComFuncoes: é possível, serve como contrato para repositorios. Será um type onde a Key será do tipo função avisando o que receberá e o que devolvera
+
