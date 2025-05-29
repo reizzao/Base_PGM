@@ -90,6 +90,11 @@ pesquisar_texto: barra e o textoAlvo
 substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova , significa: s é de substituição e,
 obs: se quiser só na mesma linha insira no final do comando  /g ,
 
+substituir_entre_linhas: :1,5 s/alvo/substituição,  obs: linha que começa virgula linha que termina <acao>, semelhante no vscode selecionar com será as linhas e modificar ocorrência.
+
+
+
+
 Customização:
  para_desligar_customizados: insira o: no na frente do nome do comando ex. :set noignorecase
 
