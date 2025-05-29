@@ -38,6 +38,9 @@ Atalhos :
 desfazer : u, significa: undo
 refazer: ctr+r ,significa: redo
 tab_na_linha : ctr+t da o tab, desfazer: ctr+d
+repete_linha_de_cima: ctr+y
+repete_linha_de_baixo: ctr+e
+
 
 
 ---
