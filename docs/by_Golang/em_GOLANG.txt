@@ -19,3 +19,17 @@ PacotesComMesmoNome: é permitido, na importação que pode confeitar é só col
 
 ContratoDeConfiguracaoImplemntar_de_ObjetoComFuncoes: é possível, serve como contrato para repositorios. Será um type onde a Key será do tipo função avisando o que receberá e o que devolvera
 
+Interpolacao_String :
+  Referir_Variaveis_Interpoladas
+  // Modo default golang
+    referencia_a_variavel_qualquer_valor : %v
+    referencia_a_variavel_retorna o Tipo : %T
+    referencia_a_variavel_string : %s
+    referencia_a_variavel_numeroInteiro : %d
+    referencia_a_variavel_numeroDecimal : %f
+
+  Implementacao_Go :
+   `msg := fmt.Sprintf("Mostre o valor de %v", nome)
+	fmt.Println(msg)
+  // a funcao fmt.Sprintf retorna o valor da string interpolada - use-o.
+  `

@@ -1,0 +1,37 @@
+// referenciar variavel no verbo fmt.Sprintf
+// modo default golang
+%v:
+Insere o valor do argumento como ele é, sem manipulação extra.
+Exemplo: fmt.Printf("O valor é: %v", 123) imprime "O valor é: 123"
+%T:
+Insere o tipo do argumento.
+Exemplo: fmt.Printf("O tipo é: %T", 123) imprime "O tipo é: int"
+%d (inteiro com sinal):
+Para inteiros com sinal.
+Exemplo: fmt.Printf("O inteiro é: %d", -10) imprime "O inteiro é: -10"
+%u (inteiro sem sinal):
+Para inteiros sem sinal (unsigned).
+Exemplo: fmt.Printf("O inteiro sem sinal é: %u", 10) imprime "O inteiro sem sinal é: 10"
+%f (ponto flutuante):
+Para valores de ponto flutuante.
+Exemplo: fmt.Printf("O ponto flutuante é: %f", 3.14) imprime "O ponto flutuante é: 3.140000"
+%s (string):
+Para strings.
+Exemplo: fmt.Printf("A string é: %s", "Olá") imprime "A string é: Olá"
+%p (ponteiro):
+Para endereços de memória.
+Exemplo: fmt.Printf("O endereço é: %p", &var) imprime o endereço de memória da variável var
+%b (binário):
+Para inteiros em base 2.
+Exemplo: fmt.Printf("O binário é: %b", 10) imprime "O binário é: 1010"
+%c (caractere):
+Para caracteres (representados por seus valores de código).
+Exemplo: fmt.Printf("O caractere é: %c", 65) imprime "O caractere é: A"
+Outros modificadores (opcionais):
+# (hash): Adiciona um prefixo (como 0x para hexadecimal)
++ (sinal): Adiciona um sinal (+) para números positivos
+` ` (espaço): Adiciona um espaço antes de números positivos
+0 (zeros): Preenche com zeros antes do número
+- (negativo): Alinha à esquerda
+(largura): Define a largura mínima da saída
+(precisão): Define a precisão para ponto flutuante
