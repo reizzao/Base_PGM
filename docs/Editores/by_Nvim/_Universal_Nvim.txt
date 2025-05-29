@@ -95,7 +95,7 @@ Customização:
  para_desligar_customizados: insira o: no na frente do nome do comando ex. :set noignorecase
 
  ligar_hilight_destacar_ocorrencias: set lhs , desligar: set nohls
- ligar_caseSensitive: set noignorecase , desligar: set ignorecase
+ ligar_caseSensitive: set noic , desligar: set ic , obs: ic é ignorecase
 
 
 
