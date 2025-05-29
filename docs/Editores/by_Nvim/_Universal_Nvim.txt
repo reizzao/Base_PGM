@@ -23,6 +23,9 @@ Universal VIM
 
 Instalacao: VIM:: `sudo apt install vim`
 
+Utils:
+ - se for fazer comando Maiusculo é só usar shif+Letra, não precisa primeiro deuxa-la maiuscula.
+
 O Editor Possui 4 modos: [
 Comandos: vc sempre volta pra esse ao dar Esc, acesso: Esc, 
 
@@ -63,7 +66,7 @@ recortar_jogarPraMemoria: td, dps ao colar pode colar quantas vezes quiser porqu
 
 usar_atalhos_com_numerosLinha: número De Linhas <comandoAtalho> ex: 9 dd vai apagar da linha atual até 9 linhas pra baixo,para esses é bom usar o numerador padrão de linhas do vim.
 
-
+unir_fim_da/linhaDeBaixoVomADeCima. shif+j
 
 
 ---
