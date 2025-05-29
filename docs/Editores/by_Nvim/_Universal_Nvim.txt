@@ -17,7 +17,6 @@ Significados:
 - Buffer: buffet é a memoria, algo/arquivo que ainda não existe enquanto não for salvo, depois que é salvo sai da memória auxiliar e vira algo/arquivo concreto
 
 - barra: é pesquisa
-- barraG: no arquivo inteiro
 
 ---
 
@@ -88,8 +87,8 @@ ir_pra_proxima_ocorrencia: n
 Modo Comando : acesso: 2 pontos
 
 pesquisar_texto: barra e o textoAlvo 
-substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova/g , significa: s é de substituição e o /g no final quer dizer no arquivo inteiro , senão usar vai fazer a modificação somente na primeira occorrencia.,
-
+substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova , significa: s é de substituição e,
+obs: se quiser só na mesma linha insira no final do comando  /g ,
 
 Customização:
  para_desligar_customizados: insira o: no na frente do nome do comando ex. :set noignorecase
