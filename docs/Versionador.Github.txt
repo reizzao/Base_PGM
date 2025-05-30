@@ -33,7 +33,9 @@ voltar_a_versao_por_id : git reset --Hard <Id_da_Versao>
 
 ---
 
-branches : são galhos aramazenadores onde em cada posso guardar uma coleção de versoes
+branches : são galhos aramazenadores onde em cada posso guardar uma coleção de versoes, obs: ao criar uma branca o git cria 2 da mesma 1 local e outra remoto
+
+conceito: pra salvar da local pra remota é feito um merge.
 
 ver_todas_branches: git branch
 
