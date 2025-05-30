@@ -1,6 +1,6 @@
 Significado: github é um versionador, que envia arquivos modificados preparados da máquina local para o servidor web/remoto github.com.
 
-modificados: vai pra stage área, 
+modificados: vai pra stage área de controle de versao é tipo um buffer em memoria, 
   visualisa_se: git status 
 
 preoarar_modificados_no_remoto: git add .
