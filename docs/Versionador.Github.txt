@@ -14,3 +14,6 @@ dar/intendificacao_comComentario_a_VersaoEnviada : git commit- m "mensagem"
 
 puxar_a versao_pro_remoto : git push
 
+PraQualRepo: o git push funciona se ele sabe pea qual repo cai enviar, pra ele saber ou vc clona o repo ou informa qual é o repo com o comando ::
+git remoto add origin <url do repo>
+
