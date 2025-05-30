@@ -23,4 +23,4 @@ Setar_Branch_Que_Guardara_a_Versao: git push --set-upstream origin <NomeBranch> 
 
 Manipular_Historico_de_Versoes
 
- informar_historico: git log
+ informar_historico: git reflog
