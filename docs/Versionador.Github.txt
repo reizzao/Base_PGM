@@ -3,7 +3,7 @@ Significado: github é um versionador, que envia arquivos modificados preparados
 modificados: vai pra stage área de controle de versao é tipo um buffer em memoria, 
   visualisa_se: git status 
 
-adicionar_ao_controleDeVersao: git add . // ou git add "nomearquivo.ext"
+adicionar_ao_controleDeVersao: git add . // adiciona todos ou `git add "nomearquivo.ext"` >> para adiciona somente esse 1 arquivo .
 
 demarcar_comComentario_o_preparado : git commit- m "mensagem"
 
