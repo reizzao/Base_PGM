@@ -14,7 +14,7 @@ Configuracoes:
 ---
 Significados: 
 
-- Buffer: buffet é a memoria, algo/arquivo que ainda não existe enquanto não for salvo, depois que é salvo sai da memória auxiliar e vira algo/arquivo concreto
+- Buffer: buffet é a memoria, algo/arquivo que ainda não existe enquanto não for salvo, depois que é salvo sai da memória auxiliar e vira algo/arquivo concreto, obs: o Buffer do vim é pequeno guarda pouca coisa, e pode ser compartilhado somente no mesmo terminal.
 
 - barra: é pesquisa
 
@@ -82,7 +82,7 @@ ir_fim_da_linha: tecla END ou ^^
 ir_comeco/linha: tecla HOME ou $
 ir_pra_linha: :número Da_Linha ex. :10 vai pra linha 10
 ir_pra_ultima_linha: shift+g , útil pra quem não sabe o número da última linha.
-ir_pra_proxima_ocorrencia: n
+ir_pra_proxima_ocorrencia: n , significa:next
 ir_comeco_arquivo: gg ou :1
 
 pular_entre_janelas: ctr+w w
@@ -97,6 +97,7 @@ copiar_arquivo_inteiro: em um novo arquivo :.!cat /endereco/Alvo.extensao ,
 Modo Comando : acesso: 2 pontos
 
 pesquisar_texto: barra e o textoAlvo 
+
 substituir_todas_ocorrencias_de/texto: :s/texto/substituicaoNova , significa: s é de substituição e,
 obs: se quiser só na mesma linha insira no final do comando  /g ,
 
