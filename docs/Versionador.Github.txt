@@ -1,2 +1,11 @@
 Significado: github é um versionador.
 
+modificados: vai pra stage área, 
+  visualisa_se: git status 
+
+preoarar_modificados_no_remoto: git add .
+
+demarcar_comComentario_o_preparado : git commit- m "mensagem"
+
+puxar_preparados_pro_remotoWeb : git push
+
