@@ -1,5 +1,5 @@
 Significados: 
-github: é um versionador, que envia arquivos modificados preparados para nova versão da máquina local para o servidor web/remoto na nuvem github.com.
+github: é um versionador que controla a linha do tempo entre passado, futuro e presente de uma aplicação, que envia arquivos modificados preparados para nova versão da máquina local para o servidor web/remoto na nuvem github.com.
 
 remoto: na nuvem na web no servidor.
 
