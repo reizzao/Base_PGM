@@ -1,11 +1,16 @@
-Significado: github é um versionador, que envia arquivos modificados preparados da máquina local para o servidor web/remoto github.com.
+Significados: 
+github: é um versionador, que envia arquivos modificados preparados para nova versão da máquina local para o servidor web/remoto na nuvem github.com.
+
+remoto: na nuvem na web no servidor.
+
+
 
 modificados: vai pra stage área de controle de versao é tipo um buffer em memoria, 
   visualisa_se: git status 
 
 adicionar_ao_controleDeVersao: git add . // adiciona todos ou `git add "nomearquivo.ext"` >> para adiciona somente esse 1 arquivo .
 
-demarcar_comComentario_o_preparado : git commit- m "mensagem"
+dar/intendificacao_comComentario_a_VersaoEnviada : git commit- m "mensagem"
 
-puxar_preparados_pro_remotoWeb : git push
+puxar_a versao_pro_remoto : git push
 
