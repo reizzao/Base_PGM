@@ -111,6 +111,8 @@ Customização:
  ligar_hilight_destacar_ocorrencias: set lhs , desligar: set nohls
  ligar_caseSensitive: set noic , desligar: set ic , obs: ic é ignorecase
 
+ordenar_primeiros_caracteres_e_numeros: sort
+ordenar_separados_caractere_e_numeros: sort n
 
 
 ---
