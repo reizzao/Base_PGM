@@ -1,5 +1,15 @@
 # Universal Neovim
 
+Conceitos: [
+- Vim é uma modernização do VI, Nvim é modernização do Vim obs: Nvim e Neovim sao a mesma coisa.
+- Ordem editores : [ Vi, Vim, Nvim ]
+- Gerenciador de plug-in é o que faz o Nvim aceitar as modernas ferramentas, então use-o. 
+
+- Gerenciador de plugins modernos na ordem : [em 2025_05: LazyVim, ]
+
+]
+
+
 PrimeiroPasso:
 - primeiro tem que instalar o neovim na maquina : `sudo apt install neovim`
 - depois instala as novas versoes modificadas.
