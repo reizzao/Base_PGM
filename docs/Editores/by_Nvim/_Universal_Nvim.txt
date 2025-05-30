@@ -115,7 +115,7 @@ Customização:
 ordenar_primeiros_caracteres_e_numeros: sort
 ordenar_separados_caractere_e_numeros: sort n , obs. este é melhor , o outro não organiza números direito.
 
-
+apaga_linha_do_cursorPraBaixo: ctr+u
 ---
 
 Links
