@@ -6,7 +6,7 @@ remoto: na nuvem na web no servidor.
 
 
 modificados: vai pra stage área de controle de versao é tipo um buffer em memoria, 
-  visualisa_se: git status 
+  visualisa_se_houve_mudancas: git status 
 
 adicionar_ao_controleDeVersao: git add . // adiciona todos ou `git add "nomearquivo.ext"` >> para adiciona somente esse 1 arquivo .
 
