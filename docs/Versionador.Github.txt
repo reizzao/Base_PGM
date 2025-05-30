@@ -28,3 +28,13 @@ Manipular_Historico_de_Versoes
  informar_historico: git reflog // vai mostrar com o id e menssgem a versão atual e também a versão anterior -- essas informações podemos usar em outros comandos ex: reset.
 
 voltar_a_versao_por_id : git reset --Hard <Id_da_Versao>
+
+// todo: ver outros parâmetros disponiveis
+
+---
+
+branches : são galhos aramazenadores onde em cada posso guardar uma coleção de versoes
+
+ver_todas_branches: git branch
+
+
