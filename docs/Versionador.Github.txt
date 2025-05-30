@@ -1,4 +1,4 @@
-Significado: github é um versionador.
+Significado: github é um versionador, que envia arquivos modificados preparados da máquina local para o servidor web/remoto github.com.
 
 modificados: vai pra stage área, 
   visualisa_se: git status 
