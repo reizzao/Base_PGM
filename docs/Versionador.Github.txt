@@ -25,6 +25,6 @@ Setar_Branch_Que_Guardara_a_Versao: git push --set-upstream origin <NomeBranch> 
 
 Manipular_Historico_de_Versoes
 
- informar_historico: git reflog
+ informar_historico: git reflog // vai mostrar com o id e menssgem a versão atual e também a versão anterior -- essas informações podemos usar em outros comandos ex: reset.
 
 voltar_a_versao_por_id : git reset --Hard <Id_da_Versao>
