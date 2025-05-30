@@ -3,3 +3,18 @@
 encontrar_arquivo: locate parteDoNomeArquivoAlvo // vai trazer ocorrências de locais
 
 mostrar_conteudo_arquivo: cat ./endereco/alvo.extencao
+
+valer_novas_configs_sistema: reset
+
+
+
+
+---
+Importantes :
+
+Configuracoes_Ordem_Validade: 1° do sistema, 2° di user,  obs: em modificações paralelas quem salvar primeiro ganha.
+
+
+
+---
+
