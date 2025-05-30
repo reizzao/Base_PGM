@@ -10,7 +10,7 @@ modificados: vai pra stage área de controle de versao é tipo um buffer em memo
 
 adicionar_ao_controleDeVersao: git add . // adiciona todos ou `git add "nomearquivo.ext"` >> para adiciona somente esse 1 arquivo .
 
-dar/intendificacao_comComentario_a_VersaoEnviada : git commit- m "mensagem"
+dar/intendificacao_comComentario_a_VersaoEnviada : git commit- m "mensagem O que foi modificado na versao?"
 
 puxar_a versao_pro_remoto : git push
 
