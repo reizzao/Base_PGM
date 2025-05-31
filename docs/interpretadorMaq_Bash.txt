@@ -1,3 +1,12 @@
+
+Conceitos: [
+  Shell -> Interface entre o usuário e os recursos do Kernel. Ela pode ser por meio gráfica (GUI) ou por linha de comando (CLI).
+
+Shell Script -> Um arquivo que contém scripts que vão ser executados por um interpretador de linhas de comando
+
+Bash -> É um exemplo de intepretador de comandos.
+]
+
 # Comandos_Bash
 
 encontrar_arquivo: locate parteDoNomeArquivoAlvo // vai trazer ocorrências de locais
@@ -21,7 +30,7 @@ Configuracoes_Ordem_Validade: 1° do sistema, 2° di user,  obs: em modificaçõ
 parametros:
  conceito: parâmetros são opções que enviamos ou usamos as disponíveis já prontas de comandos/funções.
 
-Temos os parâmetros : [ 
+Temos os parâmetros : [
 que Vamos Enviar, nas funções o indicamos com $
 que já são prontos Definidos pelo comando que informamos após o comando com -nomeParamQueQueroUsar  ou --nomeParamQueQueroUsar
-] 
+]
