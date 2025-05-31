@@ -44,6 +44,9 @@ Resumo_Conceito: a Master é a instável (só entra as novas funcionalidades apr
 
 Convensao: nome de beach Nova ainda nao testada = stage ou sua funcionalidade que vai entregar.
 
-ver_todas_branches: git branch
+ver_todas_branches: git branch 
+// após mais de uma adicionada a que estiver de cor diferente e com asteristivo * é a que estamos nela usando no momento.
+
+
 
 
