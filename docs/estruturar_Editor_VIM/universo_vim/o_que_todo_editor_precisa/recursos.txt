@@ -1,3 +1,6 @@
 # Recursos
 
 snippers : snnipets/atalhosDeTexto/Dicionário Ortográficos da pra fazer no vimrc todo: pesquise.,
+
+Gerenciador_de_Arquivos:
+ Opcoes: [ 1 floaterm, 1 telescope, 2 proprioDoVim, 3 nerdtree, ]
