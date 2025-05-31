@@ -47,6 +47,8 @@ Convensao: nome de beach Nova ainda nao testada = stage ou sua funcionalidade qu
 ver_todas_branches: git branch 
 // após mais de uma adicionada a que estiver de cor diferente e com asteristivo * é a que estamos nela usando no momento.
 
+mudar_outra_outra_branch : git checkout <NomeBranch>
+
 
 
 
