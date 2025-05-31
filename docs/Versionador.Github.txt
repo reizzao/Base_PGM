@@ -53,6 +53,8 @@ mudar_outra_outra_branch : git checkout <NomeBranch>
 
 VersionamentosNaBranch: é o mesmo feito na master  $Ciclo_De_Versionamento
 
+Mergiar : 
+  Conceito: Mergiar é trazer atualizações versionadas de uma brach paea outra.
 
 
 
