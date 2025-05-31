@@ -19,7 +19,7 @@ puxar_a versao_pro_remoto : git push
 PraQualRepo: o git push funciona se ele sabe pea qual repo cai enviar, pra ele saber ou vc clona o repo ou informa qual é o repo com o comando ::
 git remoto add origin <url do repo>
 
-Setar_Branch_Que_Guardara_a_Versao: git push --set-upstream origin <NomeBranch> // só faz uma vez ou quando mudar para outra beanch
+Publicar_Setar_Branch_Que_Guardara_a_Versao: git push --set-upstream origin <NomeBranch> // só faz uma vez ou quando mudar para outra beanch
 
 ---
 
