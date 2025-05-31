@@ -51,6 +51,11 @@ ver_todas_branches: git branch
 
 mudar_outra_outra_branch : git checkout <NomeBranch>
 
+uso_da_beanch: é o mesmo $Ciclo_De_Versionamento
+
+
+
+
 
 
 
