@@ -42,6 +42,7 @@ Uso_Servical: vc sempre terá uma branch que será a Master e outras serviçais,
 
 Resumo_Conceito: a Master é a instável (só entra as novas funcionalidades aprovadas nela) e as outras serviçais são pra criar e testar as funcionalidades novas para serem aprovadas.
 
+Convensao: nome de beach Nova ainda nao testada = stage ???
 
 ver_todas_branches: git branch
 
