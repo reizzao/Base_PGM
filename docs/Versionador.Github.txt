@@ -56,11 +56,23 @@ VersionamentosNaBranch: é o mesmo feito na master  $Ciclo_De_Versionamento
 Mergiar : 
   Conceito: Mergiar é trazer atualizações versionadas de uma brach paea outra.
 
-Passos_para_Merguar [
+Ciclo_para_Mergiar_Direto_Sem_Burocracia : [
 - 1° entrar na branch que vai receber as atualizações 
-- 2° rodar : `git merge < NomeBranch que puxarei as novidades >`
+
+- 2° rodar : git pull // obrigatório ser antes do merge para ele trazer o mais atualizado do remoto.
+
+- 3° rodar : `git merge < NomeBranch que puxarei as novidades >`
 
 ]
+
+
+Ciclo_para_Mergiar_Com_Burocracia _Aprovacao : 
+// mediante aprovação então é Pull Request
+
+
+
+]
+
 
 
 
