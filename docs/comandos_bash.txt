@@ -18,3 +18,10 @@ Configuracoes_Ordem_Validade: 1° do sistema, 2° di user,  obs: em modificaçõ
 
 ---
 
+parametros:
+ conceito: parâmetros são opções que enviamos ou usamos as disponíveis já prontas de comandos/funções.
+
+Temos os parâmetros : [ 
+que Vamos Enviar, nas funções o indicamos com $
+que já são prontos Definidos pelo comando que informamos após o comando com -nomeParamQueQueroUsar  ou --nomeParamQueQueroUsar
+] 
