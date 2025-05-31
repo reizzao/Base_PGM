@@ -5,7 +5,9 @@ remoto: na nuvem na web no servidor.
 
 parametro_para_LingaDeComando: demarca-se com 2 traços na frente e o nomeDaOpcao, são opções de linha de comando já configuradas que vc só usa. ex: --Hard,  quer dizer qye esse comando tem opções diferentes pra decidir como vc vai agir e vc escolheu essa --hard , ou seja ele vai dar reset mas dá forma Hard com certeza remoto outras opções tbm.
 
+---
 
+Ciclo_De_Versionamento :
 
 modificados: vai pra stage área de controle de versao é tipo um buffer em memoria, 
   visualisa_se_houve_mudancas: git status 
