@@ -1,0 +1,7 @@
+
+
+Significados:
+
+- Buffer: buffet é a memoria, algo/arquivo que ainda não existe enquanto não for salvo, depois que é salvo sai da memória auxiliar e vira algo/arquivo concreto, obs: o Buffer do vim é pequeno guarda pouca coisa, e pode ser compartilhado somente no mesmo terminal.
+
+- barra: é pesquisa

@@ -1,0 +1,3 @@
+# Comandos de Terminal Bash
+
+abrir_o_editor : `nvim`

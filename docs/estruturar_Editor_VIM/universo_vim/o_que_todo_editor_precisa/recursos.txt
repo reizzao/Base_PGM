@@ -1,0 +1,3 @@
+# Recursos
+
+snippers : snnipets/atalhosDeTexto/Dicionário Ortográficos da pra fazer no vimrc todo: pesquise.,

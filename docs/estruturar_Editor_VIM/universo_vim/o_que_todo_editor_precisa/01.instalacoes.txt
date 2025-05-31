@@ -1,0 +1,21 @@
+# Instalacoes
+
+Instalacoes :
+  Detalhes: não é obrigatorio ter o vim e nvim juntos.
+
+  Vim : $`sudo apt install vim`
+  obs: ESSE É O VIM PURO
+
+  Neovim : // instalar pelo repo oficial do nvim - ver aula com o TerminalRoot nk youtu.be ou no meu Udemy
+
+// segundo o gemini neovim é o nome oficial e nvim é abreviação um alias/apelido
+
+opcao2_inviavel_via_apt: $`sudo apt install neovim`
+
+  obs: [
+- é a versao do vim com arquitetura feita com a linguagem lua.,
+- o nvim puro sem configs lua pode ser usado como um vim puro. porque ainda não tem libs lua.,
+-
+]
+
+---

@@ -1,0 +1,8 @@
+
+versao_Modificada_lazyVim :
+
+Site_Oficial: https://www.lazyvim.org/
+
+Instalacao: apos clonar o repo de instalacao mostrado no site de o comando na pasta ./config/nvim de o comando : `nvim`
+
+sair_terminal_Instalacao: q
